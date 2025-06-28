@@ -7,7 +7,7 @@ const alunoModel = sequelize.define('Alunos', {
         autoIncrement: true, // o valor sera gerado automaticamente
         primaryKey: true // define este campo como a chave primaria 
     },
-    NomeAluno: {
+    nomeAluno: {
         type: DataTypes.INTEGER, // tipo 
         allowNull: false
     },
